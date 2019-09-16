@@ -270,8 +270,6 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   color: #006400;
 }
 
-
-
 .controllerRaiseH .icon-RaiseHandImg::before {
   font-family: 'icomoon';
   content: "\e962";
@@ -403,7 +401,6 @@ div.ui-memblist-usr .user-details a .media-object {
   opacity: 0.5;
   cursor: default;
 }
-
 
 #subchat.teacher .icon-audioImg.enable::before {
   font-family: 'icomoon';

@@ -14,14 +14,18 @@
   height: calc(100vh - 44px);
 }
 
-#virtualclassCont.congrea #layoutPollBody, #virtualclassCont.congrea #layoutQuizBody {
+#virtualclassCont.congrea #layoutPollBody,
+#virtualclassCont.congrea #layoutQuizBody {
   height: calc(100% - 48px);
-
 }
 
-#virtualclassCont.congrea #virtualclassVideo, #virtualclassCont.congrea #videoPlayerCont, #virtualclassCont.congrea #dispVideo,
-#virtualclassCont.congrea #virtualclassPoll, #virtualclassCont.congrea.teacher #layoutPoll,
-#virtualclassCont.congrea #layoutQuiz, #virtualclassCont.congrea #virtualclassQuiz,
+#virtualclassCont.congrea #virtualclassVideo,
+#virtualclassCont.congrea #videoPlayerCont,
+#virtualclassCont.congrea #dispVideo,
+#virtualclassCont.congrea #virtualclassPoll,
+#virtualclassCont.congrea.teacher #layoutPoll,
+#virtualclassCont.congrea #layoutQuiz,
+#virtualclassCont.congrea #virtualclassQuiz,
 #virtualclassCont.congrea #virtualclassSharePresentation,
 #virtualclassCont.congrea #virtualclassWhiteboard {
   width: 100%;
@@ -32,7 +36,8 @@
 #virtualclassCont.congrea #virtualclassEditorRichBody,
 #virtualclassCont.congrea #virtualclassEditorCodeBody,
 #virtualclassCont.congrea.teacher #virtualclassEditorCodeBody,
-#virtualclassEditorCode, #virtualclassEditorCodeBody,
+#virtualclassEditorCode,
+#virtualclassEditorCodeBody,
 #virtualclassCont.congrea .vceditor,
 #virtualclassCont.congrea #virtualclassDocumentShare {
   width: 100%;
@@ -50,7 +55,7 @@
 }
 
 #virtualclassCont.congrea.student #virtualclassScreenShare {
-  margin: 2px 0px 0px 3px;
+  margin: 2px 0 0 3px;
 }
 
 #virtualclassCont.congrea #whiteboardContainer {
@@ -79,14 +84,14 @@
   overflow: auto;
 }
 
-#virtualclassCont.congrea.teacher #virtualclassVideo, #virtualclassCont.congrea.teacher #virtualclassSharePresentation {
+#virtualclassCont.congrea.teacher #virtualclassVideo,
+#virtualclassCont.congrea.teacher #virtualclassSharePresentation {
   margin-left: 2px;
 }
 
 @media only screen
-and (min-device-width: 368px)
+  and (min-device-width: 368px)
 and (max-device-width: 1024px) {
-
   #virtualclassCont.congrea #virtualclassAppRightPanel {
     height: calc(100vh - var(--vh-offset));
   }
@@ -224,11 +229,15 @@ and (max-device-width: 1024px) {
     font-size: 11px;
   }
 
-  #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='DocumentShare'] .modal, #virtualclassCont.congrea #virtualclassApp[data-currapp='Video'] .modal, #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='SharePresentation'] .modal {
+  #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='DocumentShare'] .modal,
+  #virtualclassCont.congrea #virtualclassApp[data-currapp='Video'] .modal,
+  #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='SharePresentation'] .modal {
     height: calc(100vh - var(--vh-offset) - 44px);
   }
 
-  #virtualclassCont.congrea.teacher.fullScreenMode #virtualclassApp[data-currapp='DocumentShare'] .modal, #virtualclassCont.congrea.fullScreenMode #virtualclassApp[data-currapp='Video'] .modal, #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='SharePresentation'] .modal {
+  #virtualclassCont.congrea.teacher.fullScreenMode #virtualclassApp[data-currapp='DocumentShare'] .modal,
+  #virtualclassCont.congrea.fullScreenMode #virtualclassApp[data-currapp='Video'] .modal,
+  #virtualclassCont.congrea.teacher #virtualclassApp[data-currapp='SharePresentation'] .modal {
     height: calc(100vh - 44px);
   }
 

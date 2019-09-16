@@ -1,6 +1,6 @@
 #virtualclassCont #dashboardContainer .modal-dialog {
   width: 100% !important;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #virtualclassCont #dashboardContainer .modal .modal-content {
@@ -42,23 +42,30 @@
 #virtualclassCont.congrea #listdocs .linkdocs .controlCont {
   float: right;
   width: 18px;
-  /*background: #820729;*/
+
+  /* background: #820729; */
+
   /* border-top-right-radius: 6px; */
   border-bottom-right-radius: 6px;
   height: auto;
   margin-top: -1px;
   border-radius: 5px;
   padding-left: 2px;
+
   /* border-top-right-radius: 0; */
+
   /* border-bottom-right-radius: 0; */
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  /*margin-right: 6px;*/
+
+  /* margin-right: 6px; */
 }
 
-#virtualclassCont.congrea #listdocs .linkdocs .controlCont, #virtualclassCont.congrea #listdocs .linkdocs .controlCont:hover {
+#virtualclassCont.congrea #listdocs .linkdocs .controlCont,
+#virtualclassCont.congrea #listdocs .linkdocs .controlCont:hover {
   margin-top: 6px;
-  /*margin-right: 3px;*/
+
+  /* margin-right: 3px; */
 }
 
 #virtualclassCont.congrea #listdocs .list-group-item {
@@ -70,12 +77,13 @@
   content: "\e961";
   font-family: 'icomoon';
   font-size: 17px;
-  padding-top: 0px;
-  color: #888888;
+  padding-top: 0;
+  color: #888;
   margin-left: -5px;
 }
 
-#virtualclassCont.congrea #listdocs .list-group-item[data-selected="0"] .controls.delete::before, #virtualclassCont.congrea #listdocs .list-group-item[data-selected="1"] .controls.delete::before {
+#virtualclassCont.congrea #listdocs .list-group-item[data-selected="0"] .controls.delete::before,
+#virtualclassCont.congrea #listdocs .list-group-item[data-selected="1"] .controls.delete::before {
   display: none;
 }
 
@@ -84,7 +92,8 @@
   color: #101010;
 }
 
-#virtualclassCont.congrea .dbContainer .linkdocs, #virtualclassCont.congrea .dbContainer .linkdocs .controlCont {
+#virtualclassCont.congrea .dbContainer .linkdocs,
+#virtualclassCont.congrea .dbContainer .linkdocs .controlCont {
   cursor: pointer;
 }
 
@@ -97,7 +106,8 @@
   color: #c70a0a;
 }
 
-#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"] .controls.delete::before, #virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"],
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"] .controls.delete::before,
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"],
 #virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"]:hover .controls.delete::before {
   color: #464646;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -165,7 +175,7 @@
 }
 
 #virtualclassCont #listnotes .mainpreview {
-  /*margin-top : 1.5%;*/
+  /* margin-top : 1.5%; */
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 123%;
@@ -223,8 +233,7 @@
   padding: 12px;
 }
 
-#listdocs.listPages .links
-.bootstrap .list-group-item:last-child {
+#listdocs.listPages .links .bootstrap .list-group-item:last-child {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
@@ -258,11 +267,11 @@
 #virtualclassCont.congrea #dashboardnav button.btn-primary {
   height: 45px;
   width: 57px;
-  margin-left: 0px;
-  border: 0px;
+  margin-left: 0;
+  border: 0;
 }
 
-#virtualclassCont.congrea #dashboardnav.congtooltip:hover:after {
+#virtualclassCont.congrea #dashboardnav.congtooltip:hover::after {
   top: 11px;
   left: 64px;
   height: 20px;
@@ -277,7 +286,8 @@
   opacity: 0.8;
 }
 
-#virtualclassCont.congrea .bootstrap .modal-content, #virtualclassCont.congrea #congdashboard.modal {
+#virtualclassCont.congrea .bootstrap .modal-content,
+#virtualclassCont.congrea #congdashboard.modal {
   box-shadow: none !important;
 }
 
@@ -312,7 +322,7 @@
     top: 551px;
   }
 
-  #virtualclassCont.congrea.meetingmode #dashboardnav .clicked i.dashboard-icon:before {
+  #virtualclassCont.congrea.meetingmode #dashboardnav .clicked i.dashboard-icon::before {
     font-size: 20px;
   }
 
@@ -351,7 +361,7 @@
     top: 10px;
   }
 
-  #virtualclassCont.congrea.meetingmode i.dashboard-icon:before {
+  #virtualclassCont.congrea.meetingmode i.dashboard-icon::before {
     font-size: 20px;
   }
 }

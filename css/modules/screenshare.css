@@ -5,16 +5,21 @@
 
 #virtualclassCont.congrea #virtualclassScreenShare {
   float: left;
-  /*height: 100%;*/
+
+  /* height: 100%; */
 }
 
-/*#virtualclassCont.congrea #virtualclassScreenShare {*/
-/*margin-left: 55px;*/
-/*}*/
+/* #virtualclassCont.congrea #virtualclassScreenShare { */
 
-/*#virtualclassCont.congrea #virtualclassScreenShare {*/
-/*width: 99%;*/
-/*}*/
+/* margin-left: 55px; */
+
+/* } */
+
+/* #virtualclassCont.congrea #virtualclassScreenShare { */
+
+/* width: 99%; */
+
+/* } */
 
 #virtualclassCont.congrea.student #virtualclassScreenShare {
   margin-left: 5px;
@@ -29,18 +34,24 @@
 }
 
 #virtualclassScreenShareTool {
-  /*padding: 10px 5px;*/ /* microsoft edge **/
+  /* padding: 10px 5px; */
+
+  /* microsoft edge **/
 }
 
 #virtualclassCont.congrea #virtualclassOptionsCont #virtualclassScreenShareTool.appOptions.active {
   border-top-right-radius: 0;
 }
 
-/*#virtualclassCont.congrea #virtualclassScreenShareTool .icon-screenshare:before {*/
-/*content: "\e602";*/
-/*font-size: 32px;*/
-/*margin-right: 5px;*/
-/*}*/
+/* #virtualclassCont.congrea #virtualclassScreenShareTool .icon-screenshare:before { */
+
+/* content: "\e602"; */
+
+/* font-size: 32px; */
+
+/* margin-right: 5px; */
+
+/* } */
 
 #virtualclassCont.congrea.educator #virtualclassScreenShare {
   margin-left: 9px;
@@ -49,40 +60,46 @@
 #virtualclassCont.congrea #virtualclassOptionsCont #virtualclassScreenShareTool.active:hover {
   background: #28323c; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #323e49), color-stop(100%, #28323c)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, #323e49), color-stop(100%, #28323c)); /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* Chrome10+,Safari5.1+ */
   background: -o-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* Opera 12+ */
   background: -ms-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* IE10+ */
   background: radial-gradient(ellipse at center, #323e49 0%, #28323c 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#323e49', endColorstr='#28323c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#323e49', endColorstr='#28323c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
 }
 
 #virtualclassCont.congrea #virtualclassOptionsCont #virtualclassScreenShareTool:hover {
   background: #8d98a4; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #8d98a4 0%, #646d76 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #8d98a4), color-stop(100%, #646d76)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, #8d98a4), color-stop(100%, #646d76)); /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(center, ellipse cover, #8d98a4 0%, #646d76 100%); /* Chrome10+,Safari5.1+ */
   background: -o-radial-gradient(center, ellipse cover, #8d98a4 0%, #646d76 100%); /* Opera 12+ */
   background: -ms-radial-gradient(center, ellipse cover, #8d98a4 0%, #646d76 100%); /* IE10+ */
   background: radial-gradient(ellipse at center, #8d98a4 0%, #646d76 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d98a4', endColorstr='#646d76', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#8d98a4', endColorstr='#646d76', GradientType=1); /* IE6-9 fallback on horizontal gradient */
 }
 
-/*#virtualclassCont.congrea #virtualclassScreenShare {*/
-/*height: 95vh;*/
-/*}*/
+/* #virtualclassCont.congrea #virtualclassScreenShare { */
 
-/*#virtualclassCont.congrea #virtualclassScreenShareLocal  #screenShrMsg {*/
-/*width: 250px;*/
-/*margin-left: 10%;*/
-/*font-weight: normal;*/
-/*text-align: center;*/
-/*}*/
+/* height: 95vh; */
+
+/* } */
+
+/* #virtualclassCont.congrea #virtualclassScreenShareLocal  #screenShrMsg { */
+
+/* width: 250px; */
+
+/* margin-left: 10%; */
+
+/* font-weight: normal; */
+
+/* text-align: center; */
+
+/* } */
 
 #virtualclassCont.congrea.teacher #virtualclassScreenShareLocalVideo {
   position: absolute;
   visibility: hidden;
-
 }
 
 #virtualclassCont.congrea.teacher.studentScreenSharing #virtualclassScreenShareLocalVideo {
@@ -124,22 +141,29 @@
   text-align: center;
 }
 
-/*#virtualclassCont.congrea #virtualclassScreenShareLocal, #virtualclassCont.congrea #virtualclassScreenShare{*/
-/*overflow : auto;*/
-/*}*/
+/* #virtualclassCont.congrea #virtualclassScreenShareLocal, #virtualclassCont.congrea #virtualclassScreenShare{ */
 
-/*#virtualclassCont.congrea.student #virtualclassScreenShareLocal{*/
-/*overflow-x : auto;*/
-/*overflow-y : auto;*/
-/*}*/
+/* overflow : auto; */
+
+/* } */
+
+/* #virtualclassCont.congrea.student #virtualclassScreenShareLocal{ */
+
+/* overflow-x : auto; */
+
+/* overflow-y : auto; */
+
+/* } */
 
 #virtualclassCont.congrea.student #virtualclassScreenShareLocal.scrollX {
   overflow-x: scroll;
 }
 
-/*#virtualclassCont.congrea.playMode #virtualclassScreenShare {*/
-/*height: 93vh;*/
-/*}*/
+/* #virtualclassCont.congrea.playMode #virtualclassScreenShare { */
+
+/* height: 93vh; */
+
+/* } */
 
 #virtualclassCont.congrea.student video#virtualclassScreenShareLocalVideo {
   position: absolute;
@@ -152,7 +176,7 @@
   color: #fff;
   border: none;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   z-index: 1000;
   cursor: pointer;
   background-color: transparent;
@@ -160,7 +184,7 @@
   border-right: 1px solid black;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 #virtualclassCont.congrea[data-recording="on"] #screenController .share button,
@@ -172,7 +196,7 @@
   background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
 }
 
-#virtualclassCont.congrea #screenController .share button:before {
+#virtualclassCont.congrea #screenController .share button::before {
   content: "\e98b";
   font-family: 'icomoon';
   font-size: 16px;
@@ -181,49 +205,63 @@
   float: left;
 }
 
-/*#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #congreaChatCont span.icon-stdscreenImg{*/
-/*pointer-events: none;*/
-/*opacity: 0.5;*/
-/*}*/
+/* #virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #congreaChatCont span.icon-stdscreenImg{ */
 
-/*#virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="red"]:before{*/
-/*color:#FF0000;*/
-/*}*/
+/* pointer-events: none; */
 
-/*#virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="orange"]:before{*/
-/*color:#FF8C00;*/
-/*}*/
+/* opacity: 0.5; */
 
-/*#virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="green"]:before{*/
-/*color:#006400;*/
-/*}*/
+/* } */
 
-/*#virtualclassCont.congrea #chat_div .controls span.enable.icon-stdscreenImg[data-dcolor="nosupport"]{*/
-/*pointer-events : none;*/
-/*opacity : 0.5;*/
-/*}*/
+/* #virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="red"]:before{ */
+
+/* color:#FF0000; */
+
+/* } */
+
+/* #virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="orange"]:before{ */
+
+/* color:#FF8C00; */
+
+/* } */
+
+/* #virtualclassCont.congrea .controls .icon-stdscreenImg[data-dcolor="green"]:before{ */
+
+/* color:#006400; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .controls span.enable.icon-stdscreenImg[data-dcolor="nosupport"]{ */
+
+/* pointer-events : none; */
+
+/* opacity : 0.5; */
+
+/* } */
 
 #virtualclassCont.congrea #stopScreenShare button {
   right: 427px;
   color: #fff;
   border: none;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   z-index: 1000;
   cursor: pointer;
   background-color: transparent;
   padding: 14px;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-#virtualclassCont.congrea[data-recording="on"] #stopScreenShare button, #virtualclassCont.congrea[data-recording="off"] #stopScreenShare button {
+#virtualclassCont.congrea[data-recording="on"] #stopScreenShare button,
+#virtualclassCont.congrea[data-recording="off"] #stopScreenShare button {
   left: 148px;
 }
 
 @-moz-document url-prefix() {
-  #virtualclassCont.congrea #stopScreenShare button, #virtualclassCont.congrea #screenController .share button {
+  #virtualclassCont.congrea #stopScreenShare button,
+  #virtualclassCont.congrea #screenController .share button {
     bottom: -2px;
   }
 }
@@ -232,7 +270,7 @@
   background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
 }
 
-#virtualclassCont.congrea #stopScreenShare button:before {
+#virtualclassCont.congrea #stopScreenShare button::before {
   content: "\e98d";
   font-family: 'icomoon';
   font-size: 16px;
@@ -242,11 +280,9 @@
 }
 
 @-moz-document url-prefix() {
-
   #virtualclassCont.congrea #screenController .share button,
   #virtualclassCont.congrea #stopScreenShare button {
     bottom: 0;
     padding: 11px 14px 14px 14px;
   }
-
 }
