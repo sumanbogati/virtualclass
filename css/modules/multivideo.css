@@ -176,7 +176,7 @@
 /* For Tablets */
 @media only screen
   and (min-device-width: 768px)
-and (max-device-width: 1024px) {
+  and (max-device-width: 1024px) {
   #virtualclassCont.congrea.meetingmode[data-totaluser="one"] #chat_div {
     height: calc(100vh - var(--vh-offset) - 372px);
   }

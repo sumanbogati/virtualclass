@@ -91,7 +91,7 @@
 
 @media only screen
   and (min-device-width: 368px)
-and (max-device-width: 1024px) {
+  and (max-device-width: 1024px) {
   #virtualclassCont.congrea #virtualclassAppRightPanel {
     height: calc(100vh - var(--vh-offset));
   }

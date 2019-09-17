@@ -4720,7 +4720,7 @@ span#usertab_text {
 
 @media only screen
   and (min-device-width: 768px)
-and (max-device-width: 1024px) {
+  and (max-device-width: 1024px) {
   #virtualclassCont.congrea #virtualclassApp .playControllerMainCont {
     bottom: -1px !important;
     z-index: 10000 !important;
